@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    tools:ignore="HardcodedText" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="document_image"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/documents" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="Document types"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+    
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView1"
+    >
+	
+	<LinearLayout
+    	 android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="vertical"
+	      >
+    
+    <Button
+        android:id="@+id/d1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".csv"
+		style="?android:attr/borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/d2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".djvu" />
+    
+    <Button
+        android:id="@+id/d3"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".doc" />
+    
+ <Button
+        android:id="@+id/d4"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".docx" />
+
+ <Button
+     android:id="@+id/d5"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".eml" />
+ 
+ <Button
+     android:id="@+id/d6"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".eps" />
+ 
+ <Button
+     android:id="@+id/d7"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".html/.htm" />
+ 
+ <Button
+     android:id="@+id/d8"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".key" />
+ 
+ <Button
+     android:id="@+id/d9"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mdb" />
+ 
+ <Button
+     android:id="@+id/d10"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mpp" />
+ 
+ <Button
+     android:id="@+id/d11"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".msq" />
+ 
+ <Button
+     android:id="@+id/d12"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".numbers" />
+ 
+ <Button
+     android:id="@+id/d13"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".odp" />
+ 
+ <Button
+     android:id="@+id/d14"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".odt" />
+ 
+ <Button
+     android:id="@+id/d15"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".pages" />
+ 
+ <Button
+     android:id="@+id/d16"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".pdf" />
+ 
+ <Button
+     android:id="@+id/d17"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".pps/.ppsx" />
+ 
+ <Button
+     android:id="@+id/d18"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".ppt" />
+ 
+ <Button
+     android:id="@+id/d19"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".ps" />
+ 
+ <Button
+     android:id="@+id/d20"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".pst" />
+ 
+ <Button
+     android:id="@+id/d21"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".pub" />
+ 
+ <Button
+     android:id="@+id/d22"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".rtf" />
+ 
+ <Button
+     android:id="@+id/d23"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".swf" />
+ 
+ <Button
+     android:id="@+id/d24"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".txt" />
+ 
+ <Button
+     android:id="@+id/d25"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".vsd" />
+ 
+ 
+ <Button
+     android:id="@+id/d26"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".wks" />
+ 
+ <Button
+     android:id="@+id/d27"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".wpd" />
+ 
+ <Button
+     android:id="@+id/d28"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".wps" />
+ 
+ <Button
+     android:id="@+id/d29"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".xls/.xlsx" />
+ 
+ <Button
+     android:id="@+id/d30"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".xlr" />
+  
+ <Button
+     android:id="@+id/d31"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".xml" />
+ 
+ <Button
+     android:id="@+id/d32"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".xps" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

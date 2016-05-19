@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/back4"
+    tools:ignore="HardcodedText" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="document_image"
+        android:layout_width="100sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ebook" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="E-Book types"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+    
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView1"
+    >
+	
+	<LinearLayout
+    	 android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="vertical"
+	      >
+    
+    <Button
+        android:id="@+id/e1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".azw"
+		style="?android:attr/borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/e2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".azw3" />
+    
+    <Button
+        android:id="@+id/e3"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".cbc" />
+    
+ <Button
+        android:id="@+id/e4"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".cbz" />
+
+ <Button
+     android:id="@+id/e5"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".chm" />
+ 
+ <Button
+     android:id="@+id/e6"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".epub" />
+ 
+ <Button
+     android:id="@+id/e7"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".fb2" />
+ 
+ <Button
+     android:id="@+id/e8"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".lit" />
+ 
+ <Button
+     android:id="@+id/e9"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".lrf" />
+ 
+ <Button
+     android:id="@+id/e10"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".lzh" />
+ 
+ <Button
+     android:id="@+id/e11"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mobi" />
+ 
+ <Button
+     android:id="@+id/e12"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".oeb" />
+ 
+ <Button
+     android:id="@+id/e13"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".pdb" />
+ 
+ <Button
+     android:id="@+id/e14"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".pml" />
+ 
+ <Button
+     android:id="@+id/e15"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".prc" />
+ 
+ <Button
+     android:id="@+id/e16"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".rb" />
+ 
+  </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

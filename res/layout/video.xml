@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/back4"
+    tools:ignore="HardcodedText" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="document_image"
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/video" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="Video types"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+    
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView1"
+    >
+	
+	<LinearLayout
+    	 android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="vertical"
+	      >
+    
+    <Button
+        android:id="@+id/v1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".264"
+		style="?android:attr/borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/v2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".3g2" />
+    
+    <Button
+        android:id="@+id/v3"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".3gp/.3gpp" />
+    
+ <Button
+        android:id="@+id/v4"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".asf" />
+
+ <Button
+     android:id="@+id/v5"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".avi" />
+ 
+ <Button
+     android:id="@+id/v6"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".f4v" />
+ 
+ <Button
+     android:id="@+id/v7"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".flv" />
+ 
+ <Button
+     android:id="@+id/v8"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".gvi" />
+ 
+ <Button
+     android:id="@+id/v9"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".m4v" />
+ 
+ <Button
+     android:id="@+id/v10"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mkv" />
+ 
+ <Button
+     android:id="@+id/v11"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mov" />
+ 
+ <Button
+     android:id="@+id/v12"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mod" />
+ 
+ <Button
+     android:id="@+id/v13"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mp4" />
+ 
+ <Button
+     android:id="@+id/v14"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mpg" />
+ 
+ <Button
+     android:id="@+id/v15"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mts" />
+ 
+ <Button
+     android:id="@+id/v16"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".rmvb" />
+ 
+ <Button
+     android:id="@+id/v17"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".ts" />
+ 
+ <Button
+     android:id="@+id/v18"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".vob" />
+ 
+ <Button
+     android:id="@+id/v19"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".webm" />
+ 
+ <Button
+     android:id="@+id/v20"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".wmv" />
+ 
+  </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

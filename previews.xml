@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="com.fileformats.video.V1"
+        config="layout-ldltr-sw360dp-w360dp-h640dp-normal-notround-port-notnight-xxhdpi-finger-keyssoft-nokeys-navhidden-nonav-1920x1080-v21"
+        device="Nexus 5"
+        devicestate="Portrait"
+        target="Android 5.0.1"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>

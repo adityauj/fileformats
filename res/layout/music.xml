@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/back4"
+    tools:ignore="HardcodedText" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="document_image"
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/music" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="Music types"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+    
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView1"
+    >
+	
+	<LinearLayout
+    	 android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="vertical"
+	      >
+    
+    <Button
+        android:id="@+id/m1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".3ga"
+		style="?android:attr/borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/m2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".aac" />
+    
+    <Button
+        android:id="@+id/m3"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".ac3" />
+    
+ <Button
+        android:id="@+id/m4"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=".aifc/.aiff" />
+
+ <Button
+     android:id="@+id/m5"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".caf" />
+ 
+ <Button
+     android:id="@+id/m6"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".flac" />
+ 
+ <Button
+     android:id="@+id/m7"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".m4a" />
+ 
+ <Button
+     android:id="@+id/m8"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".m4b" />
+ 
+ <Button
+     android:id="@+id/m9"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".m4r" />
+ 
+ <Button
+     android:id="@+id/m10"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".mp3" />
+ 
+ <Button
+     android:id="@+id/m11"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".oga" />
+ 
+ <Button
+     android:id="@+id/m12"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".ogg" />
+ 
+ <Button
+     android:id="@+id/m13"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".ra" />
+ 
+ <Button
+     android:id="@+id/m14"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".ram" />
+ 
+ <Button
+     android:id="@+id/m15"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".rm" />
+ 
+ <Button
+     android:id="@+id/m16"
+     style="?android:attr/borderlessButtonStyle"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text=".wav" />
+ 
+ 
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
